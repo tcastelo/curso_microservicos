@@ -35,6 +35,16 @@
             "mainClass": "com.tcastelo.hreurekaserver.HrEurekaServerApplication",
             "projectName": "hr-eureka-server",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrApiGatewayZuulApplication<hr-api-gateway-zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "io.tcastelo.hrapigatewayzuul.HrApiGatewayZuulApplication",
+            "projectName": "hr-api-gateway-zuul",
+            "args": ""
         }
     ]
 }
