@@ -25,6 +25,16 @@
             "mainClass": "com.tcastelo.hrworker.WorkerApplication",
             "projectName": "hr-worker",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrEurekaServerApplication<hr-eureka-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.tcastelo.hreurekaserver.HrEurekaServerApplication",
+            "projectName": "hr-eureka-server",
+            "args": ""
         }
     ]
 }
