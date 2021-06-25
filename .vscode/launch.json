@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HrEurekaServerApplication",
+            "request": "launch",
+            "mainClass": "com.tcastelo.hreurekaserver.HrEurekaServerApplication"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-PayrollApplication<hr-payroll>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
