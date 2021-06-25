@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PayrollApplication<hr-payroll>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.tcastelo.hrpayroll.PayrollApplication",
+            "projectName": "hr-payroll",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WorkerApplication<hr-worker>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.tcastelo.hrworker.WorkerApplication",
+            "projectName": "hr-worker",
+            "args": ""
+        }
+    ]
+}
