@@ -45,6 +45,16 @@
             "mainClass": "io.tcastelo.hrapigatewayzuul.HrApiGatewayZuulApplication",
             "projectName": "hr-api-gateway-zuul",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrConfigServerApplication<hr-config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.tcastelo.hrconfigserver.HrConfigServerApplication",
+            "projectName": "hr-config-server",
+            "args": ""
         }
     ]
 }
